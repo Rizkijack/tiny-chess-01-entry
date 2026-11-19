@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/Rizkijack/tiny-chess-01-entry/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/Rizkijack/tiny-chess-01-entry/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A compact alpha-beta chess engine with piece-square tables and MVV-LVA move ordering, packed with lzma.
+A compact alpha-beta chess engine with piece-square tables, MVV-LVA ordering, quiescence search, and transposition table, packed with the kit's compress tool.
 
 ## Run it
 
