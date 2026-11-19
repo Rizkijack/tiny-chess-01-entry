@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/Rizkijack/tiny-chess-01-entry/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/Rizkijack/tiny-chess-01-entry/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A compact alpha-beta chess engine with piece-square tables, MVV-LVA ordering, quiescence search and a fixed 85,000-node budget per move (fully deterministic, no clock), packed with the kit's compress tool.
+A compact alpha-beta chess engine: transposition table, killer moves, MVV-LVA ordering, capture-only quiescence with check evasions, repetition and fifty-move detection inside the search, material + piece-square + bishop-pair evaluation with a phase-blended king table. Fixed 50,000-node budget per move with whole-depth drop (fully deterministic, no clock). Search and evaluation ported from make.fun's MIT-licensed house gauntlet engine (kit `program/env/server.mjs`); 0x88 board, Zobrist hashing and env driver by Rizkijack's agent. Packed with the kit's compress tool.
 
 ## Run it
 
