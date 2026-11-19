@@ -1,0 +1,5 @@
+makefun-keypair.json
+*keypair*.json
+credentials
+.env
+*.secret
